@@ -1,0 +1,16 @@
+1744275544052	geckodriver	INFO	Listening on 127.0.0.1:49246
+1744275547120	mozrunner::runner	INFO	Running command: "C:\\Users\\PeeBaNko\\.cache\\selenium\\firefox\\win64\\137.0.1\\firefox.exe" "--marionette" "--remote-debug ... "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\PeeBaNko\\AppData\\Local\\Temp\\rust_mozprofilev0TsPk"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1744275547451	Marionette	INFO	Marionette enabled
+1744275547503	Marionette	INFO	Listening on port 49262
+WebDriver BiDi listening on ws://127.0.0.1:49247
+Read port: 49262
+1744275547576	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+DevTools listening on ws://127.0.0.1:49247/devtools/browser/d8ba8ebc-2714-466a-8200-4ea358d4b14a
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://the-internet.herokuapp.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://the-internet.herokuapp.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: http://the-internet.herokuapp.com."
+1744275553824	Marionette	INFO	Stopped listening on port 49262
+Dynamically enable window occlusion 1

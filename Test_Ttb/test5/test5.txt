@@ -1,0 +1,25 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Checkout Code From Git') {
+            steps {
+                git url: 'https://github.com/thunpisitbank/ttb_test', branch: 'main'
+            }
+        }
+
+        stage('Run Test Automate') {
+            steps {
+
+                sh 'python -m robot -d results -v language:en ./Test_Ttb'
+            }
+        }
+
+        stage('Send Result To Jenkins') {
+            steps {
+                archiveArtifacts artifacts: '/output.xml, /log.html', allowEmptyArchive: true
+                robot pipeline: true
+            }
+        }
+    }
+}
